@@ -1,0 +1,244 @@
+{
+ "count": 21,
+ "current": {
+  "count": 12,
+  "dependencies": [
+   {
+    "group": "junit",
+    "name": "junit",
+    "version": "4.13.2",
+    "projectUrl": "http://junit.org",
+    "userReason": null
+   },
+   {
+    "group": "log4j",
+    "name": "log4j",
+    "version": "1.2.17",
+    "projectUrl": "http://logging.apache.org/log4j/1.2/",
+    "userReason": null
+   },
+   {
+    "group": "org.assertj",
+    "name": "assertj-core",
+    "version": "3.26.3",
+    "projectUrl": "https://assertj.github.io/doc/#assertj-core",
+    "userReason": null
+   },
+   {
+    "group": "org.junit.jupiter",
+    "name": "junit-jupiter",
+    "version": "5.11.3",
+    "projectUrl": "https://junit.org/junit5/",
+    "userReason": null
+   },
+   {
+    "group": "org.openrewrite.recipe",
+    "name": "rewrite-ai-search",
+    "version": "0.19.1",
+    "projectUrl": "https://github.com/openrewrite/rewrite-ai-search",
+    "userReason": null
+   },
+   {
+    "group": "org.openrewrite.recipe",
+    "name": "rewrite-cloud-suitability-analyzer",
+    "version": "2.3.0",
+    "projectUrl": "https://github.com/openrewrite/rewrite-cloud-suitability-analyzer",
+    "userReason": null
+   },
+   {
+    "group": "org.openrewrite.recipe",
+    "name": "rewrite-java-dependencies",
+    "version": "1.23.0",
+    "projectUrl": "https://github.com/openrewrite/rewrite-java-dependencies",
+    "userReason": null
+   },
+   {
+    "group": "org.openrewrite.recipe",
+    "name": "rewrite-java-security",
+    "version": "2.15.0",
+    "projectUrl": "https://github.com/openrewrite/rewrite-java-security",
+    "userReason": null
+   },
+   {
+    "group": "org.openrewrite.recipe",
+    "name": "rewrite-recipe-bom",
+    "version": "2.22.0",
+    "projectUrl": "https://github.com/openrewrite/rewrite-recipe-bom",
+    "userReason": null
+   },
+   {
+    "group": "org.openrewrite.recipe",
+    "name": "rewrite-static-analysis",
+    "version": "1.20.0",
+    "projectUrl": "https://github.com/openrewrite/rewrite-static-analysis",
+    "userReason": null
+   },
+   {
+    "group": "org.openrewrite.recipe",
+    "name": "rewrite-testing-frameworks",
+    "version": "2.22.0",
+    "projectUrl": "https://github.com/openrewrite/rewrite-testing-frameworks",
+    "userReason": null
+   },
+   {
+    "group": "se.patrikerdes.use-latest-versions",
+    "name": "se.patrikerdes.use-latest-versions.gradle.plugin",
+    "version": "0.2.18",
+    "projectUrl": null,
+    "userReason": null
+   }
+  ]
+ },
+ "outdated": {
+  "count": 9,
+  "dependencies": [
+   {
+    "group": "com.github.ben-manes.versions",
+    "name": "com.github.ben-manes.versions.gradle.plugin",
+    "version": "0.48.0",
+    "projectUrl": null,
+    "userReason": null,
+    "available": {
+     "release": null,
+     "milestone": "0.51.0",
+     "integration": null
+    }
+   },
+   {
+    "group": "com.google.guava",
+    "name": "guava",
+    "version": "20.0",
+    "projectUrl": "https://github.com/google/guava",
+    "userReason": null,
+    "available": {
+     "release": null,
+     "milestone": "33.3.1-jre",
+     "integration": null
+    }
+   },
+   {
+    "group": "org.hamcrest",
+    "name": "hamcrest",
+    "version": "2.2",
+    "projectUrl": "http://hamcrest.org/JavaHamcrest/",
+    "userReason": null,
+    "available": {
+     "release": null,
+     "milestone": "3.0",
+     "integration": null
+    }
+   },
+   {
+    "group": "org.openrewrite.recipe",
+    "name": "rewrite-logging-frameworks",
+    "version": "2.16.0",
+    "projectUrl": "https://github.com/openrewrite/rewrite-logging-frameworks",
+    "userReason": null,
+    "available": {
+     "release": null,
+     "milestone": "2.16.1",
+     "integration": null
+    }
+   },
+   {
+    "group": "org.openrewrite.recipe",
+    "name": "rewrite-migrate-java",
+    "version": "2.29.0",
+    "projectUrl": "https://github.com/openrewrite/rewrite-migrate-java",
+    "userReason": null,
+    "available": {
+     "release": null,
+     "milestone": "2.29.1",
+     "integration": null
+    }
+   },
+   {
+    "group": "org.openrewrite.recipe",
+    "name": "rewrite-spring",
+    "version": "5.23.0",
+    "projectUrl": "https://github.com/openrewrite/rewrite-spring",
+    "userReason": null,
+    "available": {
+     "release": null,
+     "milestone": "5.23.2",
+     "integration": null
+    }
+   },
+   {
+    "group": "org.openrewrite.rewrite",
+    "name": "org.openrewrite.rewrite.gradle.plugin",
+    "version": "6.27.1",
+    "projectUrl": null,
+    "userReason": null,
+    "available": {
+     "release": null,
+     "milestone": "6.27.2",
+     "integration": null
+    }
+   },
+   {
+    "group": "org.springframework.boot",
+    "name": "spring-boot-starter",
+    "version": "2.7.13",
+    "projectUrl": "https://spring.io/projects/spring-boot",
+    "userReason": null,
+    "available": {
+     "release": null,
+     "milestone": "3.4.0",
+     "integration": null
+    }
+   },
+   {
+    "group": "org.springframework.boot",
+    "name": "spring-boot-starter-web",
+    "version": "2.7.13",
+    "projectUrl": "https://spring.io/projects/spring-boot",
+    "userReason": null,
+    "available": {
+     "release": null,
+     "milestone": "3.4.0",
+     "integration": null
+    }
+   }
+  ]
+ },
+ "exceeded": {
+  "count": 0,
+  "dependencies": []
+ },
+ "undeclared": {
+  "count": 0,
+  "dependencies": []
+ },
+ "unresolved": {
+  "count": 0,
+  "dependencies": []
+ },
+ "gradle": {
+  "enabled": true,
+  "running": {
+   "isFailure": false,
+   "isUpdateAvailable": false,
+   "reason": "",
+   "version": "8.10.2"
+  },
+  "current": {
+   "isFailure": false,
+   "isUpdateAvailable": true,
+   "reason": "",
+   "version": "8.11.1"
+  },
+  "releaseCandidate": {
+   "isFailure": false,
+   "isUpdateAvailable": false,
+   "reason": "update check succeeded: no release available",
+   "version": ""
+  },
+  "nightly": {
+   "isFailure": false,
+   "isUpdateAvailable": false,
+   "reason": "update check disabled",
+   "version": ""
+  }
+ }
+}

@@ -1,0 +1,39 @@
+
+------------------------------------------------------------
+: Project Dependency Updates (report to plain text file)
+------------------------------------------------------------
+
+The following dependencies are using the latest milestone version:
+ - junit:junit:4.13.2
+ - log4j:log4j:1.2.17
+ - org.assertj:assertj-core:3.26.3
+ - org.junit.jupiter:junit-jupiter:5.11.3
+ - org.openrewrite.recipe:rewrite-ai-search:0.19.1
+ - org.openrewrite.recipe:rewrite-cloud-suitability-analyzer:2.3.0
+ - org.openrewrite.recipe:rewrite-java-dependencies:1.23.0
+ - org.openrewrite.recipe:rewrite-java-security:2.15.0
+ - org.openrewrite.recipe:rewrite-recipe-bom:2.22.0
+ - org.openrewrite.recipe:rewrite-static-analysis:1.20.0
+ - org.openrewrite.recipe:rewrite-testing-frameworks:2.22.0
+ - se.patrikerdes.use-latest-versions:se.patrikerdes.use-latest-versions.gradle.plugin:0.2.18
+
+The following dependencies have later milestone versions:
+ - com.github.ben-manes.versions:com.github.ben-manes.versions.gradle.plugin [0.48.0 -> 0.51.0]
+ - com.google.guava:guava [20.0 -> 33.3.1-jre]
+     https://github.com/google/guava
+ - org.hamcrest:hamcrest [2.2 -> 3.0]
+     http://hamcrest.org/JavaHamcrest/
+ - org.openrewrite.recipe:rewrite-logging-frameworks [2.16.0 -> 2.16.1]
+     https://github.com/openrewrite/rewrite-logging-frameworks
+ - org.openrewrite.recipe:rewrite-migrate-java [2.29.0 -> 2.29.1]
+     https://github.com/openrewrite/rewrite-migrate-java
+ - org.openrewrite.recipe:rewrite-spring [5.23.0 -> 5.23.2]
+     https://github.com/openrewrite/rewrite-spring
+ - org.openrewrite.rewrite:org.openrewrite.rewrite.gradle.plugin [6.27.1 -> 6.27.2]
+ - org.springframework.boot:spring-boot-starter [2.7.13 -> 3.4.0]
+     https://spring.io/projects/spring-boot
+ - org.springframework.boot:spring-boot-starter-web [2.7.13 -> 3.4.0]
+     https://spring.io/projects/spring-boot
+
+Gradle release-candidate updates:
+ - Gradle: [8.10.2 -> 8.11.1]

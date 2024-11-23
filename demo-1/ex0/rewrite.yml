@@ -1,0 +1,9 @@
+---
+type: specs.openrewrite.org/v1beta/recipe
+name: com.teja.rac.AutoChangePackage
+displayName: Change Package name from Old 2 Modern
+recipeList:
+    -   org.openrewrite.java.ChangePackage:
+            oldPackageName: com.teja.rac.or.pkg.old
+            newPackageName: com.teja.rac.or.pkg.modern
+            recursive: null
