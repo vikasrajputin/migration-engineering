@@ -14,7 +14,7 @@ Date: 24th November, 2024
 
 ## 📋 Overview
 
-This presentation introduces the concept of **Migration Engineering as Code** using [OpenRewrite](https://openrewrite.org/), an automated code refactoring framework for Java and other languages.
+This presentation introduces the concept of **Migration Engineering as Code** using [OpenRewrite](https://docs.openrewrite.org/), an automated code refactoring framework for Java and other languages.
 
 Learn how to:
 
